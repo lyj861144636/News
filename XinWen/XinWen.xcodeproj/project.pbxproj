@@ -15,6 +15,8 @@
 		A5226C981C4CED9E009EA638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5226C961C4CED9E009EA638 /* LaunchScreen.storyboard */; };
 		A5226CA31C4CED9E009EA638 /* XinWenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5226CA21C4CED9E009EA638 /* XinWenTests.m */; };
 		A5226CAE1C4CED9E009EA638 /* XinWenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5226CAD1C4CED9E009EA638 /* XinWenUITests.m */; };
+		A5E0D7EE1C4DDA6B00096FCC /* Tools in Resources */ = {isa = PBXBuildFile; fileRef = A5E0D7ED1C4DDA6B00096FCC /* Tools */; };
+		A5E0D7F01C4DDA7300096FCC /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = A5E0D7EF1C4DDA7300096FCC /* Classes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		A5226CA91C4CED9E009EA638 /* XinWenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XinWenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5226CAD1C4CED9E009EA638 /* XinWenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XinWenUITests.m; sourceTree = "<group>"; };
 		A5226CAF1C4CED9E009EA638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5E0D7ED1C4DDA6B00096FCC /* Tools */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tools; sourceTree = "<group>"; };
+		A5E0D7EF1C4DDA7300096FCC /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		A5226C871C4CED9E009EA638 /* XinWen */ = {
 			isa = PBXGroup;
 			children = (
+				A5E0D7EF1C4DDA7300096FCC /* Classes */,
+				A5E0D7ED1C4DDA6B00096FCC /* Tools */,
 				A5226C8B1C4CED9E009EA638 /* AppDelegate.h */,
 				A5226C8C1C4CED9E009EA638 /* AppDelegate.m */,
 				A5226C8E1C4CED9E009EA638 /* ViewController.h */,
@@ -245,6 +251,8 @@
 			files = (
 				A5226C981C4CED9E009EA638 /* LaunchScreen.storyboard in Resources */,
 				A5226C951C4CED9E009EA638 /* Assets.xcassets in Resources */,
+				A5E0D7F01C4DDA7300096FCC /* Classes in Resources */,
+				A5E0D7EE1C4DDA6B00096FCC /* Tools in Resources */,
 				A5226C931C4CED9E009EA638 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +504,7 @@
 				A5226CB41C4CED9E009EA638 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5226CB51C4CED9E009EA638 /* Build configuration list for PBXNativeTarget "XinWenTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +513,7 @@
 				A5226CB71C4CED9E009EA638 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5226CB81C4CED9E009EA638 /* Build configuration list for PBXNativeTarget "XinWenUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +522,7 @@
 				A5226CBA1C4CED9E009EA638 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
